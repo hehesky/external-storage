@@ -20,7 +20,7 @@ ifeq ($(VERSION),)
 endif
 IMAGE = $(REGISTRY)nfs-client-provisioner:$(VERSION)
 IMAGE_ARM = $(REGISTRY)nfs-client-provisioner-arm:$(VERSION)
-IMAGE_PPC= $(REGISTRY)nfs-client-provisioner-ppc64le:$(VERSION)
+IMAGE_PPC = $(REGISTRY)nfs-client-provisioner-ppc64le:$(VERSION)
 MUTABLE_IMAGE = $(REGISTRY)nfs-client-provisioner:latest
 MUTABLE_IMAGE_ARM = $(REGISTRY)nfs-client-provisioner-arm:latest
 MUTABLE_IMAGE_PPC = $(REGISTRY)nfs-client-provisioner-ppc64le:latest
